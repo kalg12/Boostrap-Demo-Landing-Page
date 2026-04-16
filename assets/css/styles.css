@@ -4,3 +4,17 @@ body {
   padding: 0;
   background-color: #f4f4f4;
 }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.galeria img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
